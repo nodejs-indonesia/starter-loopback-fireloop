@@ -35,5 +35,11 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "userPhoto": {
+    "dataSource": "db",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
