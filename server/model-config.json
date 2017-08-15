@@ -41,5 +41,9 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "userCredential": {
+    "dataSource": "db",
+    "public": true
   }
 }
