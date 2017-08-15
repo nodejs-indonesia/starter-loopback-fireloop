@@ -41,5 +41,10 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+    "StorageSimpleUpload": {
+    "dataSource": "storageSimpleUpload",
+    "public": true
   }
+
 }
