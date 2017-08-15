@@ -45,5 +45,10 @@
   "userCredential": {
     "dataSource": "db",
     "public": true
+  },
+    "StorageSimpleUpload": {
+    "dataSource": "storageSimpleUpload",
+    "public": true
   }
+
 }
