@@ -8,6 +8,6 @@
     "name": "storageSimpleUpload",
     "connector": "loopback-component-storage",
     "provider": "filesystem",
-     "root": "./server/storage/simpleupload"
+    "root": "./server/storage"
   }
 }

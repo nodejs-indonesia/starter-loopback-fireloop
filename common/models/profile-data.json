@@ -1,0 +1,42 @@
+{
+  "name": "profileData",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fullName": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "placeOfBirth": {
+      "type": "string",
+      "required": true
+    },
+    "birthDate": {
+      "type": "date",
+      "required": true
+    },
+    "noPhone": {
+      "type": "string",
+      "required": true
+    },
+    "photoProfile": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
