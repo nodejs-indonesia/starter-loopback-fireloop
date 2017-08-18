@@ -46,9 +46,12 @@
     "dataSource": "db",
     "public": true
   },
-    "StorageSimpleUpload": {
+  "StorageSimpleUpload": {
     "dataSource": "storageSimpleUpload",
     "public": true
+  },
+  "profileData": {
+    "dataSource": "db",
+    "public": true
   }
-
 }
