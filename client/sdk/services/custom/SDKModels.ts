@@ -4,6 +4,7 @@ import { UserPhoto } from '../../models/UserPhoto';
 import { UserCredential } from '../../models/UserCredential';
 import { StorageSimpleUpload } from '../../models/StorageSimpleUpload';
 import { ProfileData } from '../../models/ProfileData';
+import { Maps } from '../../models/Maps';
 
 export interface Models { [name: string]: any }
 
@@ -15,6 +16,7 @@ export class SDKModels {
     UserCredential: UserCredential,
     StorageSimpleUpload: StorageSimpleUpload,
     ProfileData: ProfileData,
+    Maps: Maps,
     
   };
 
