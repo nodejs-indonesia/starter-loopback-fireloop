@@ -32,6 +32,7 @@
     "loopback-boot": "2.26.1",
     "loopback-component-explorer": "^4.0.0",
     "loopback-component-storage": "^3.2.0",
+    "loopback-connector-mysql": "^5.0.0",
     "loopback-ds-timestamp-mixin": "^3.4.1",
     "mocha": "^3.5.0",
     "serve-favicon": "^2.0.1",
