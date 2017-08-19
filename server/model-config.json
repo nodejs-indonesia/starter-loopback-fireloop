@@ -53,5 +53,11 @@
   "profileData": {
     "dataSource": "db",
     "public": true
+  },
+  "maps": {
+    "dataSource": "db",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }

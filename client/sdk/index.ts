@@ -41,7 +41,7 @@ import { SDKModels } from './services/custom/SDKModels';
 import { InternalStorage, SDKStorage } from './storage/storage.swaps';
 import { HttpModule } from '@angular/http';
 import { CommonModule } from '@angular/common';
-import { NgModule, ModuleWithProviders } from '@angular/core';
+import { ModuleWithProviders, NgModule } from '@angular/core';
 import { CookieBrowser } from './storage/cookie.browser';
 import { StorageBrowser } from './storage/storage.browser';
 import { SocketBrowser } from './sockets/socket.browser';
@@ -52,6 +52,7 @@ import { UserPhotoApi } from './services/custom/UserPhoto';
 import { UserCredentialApi } from './services/custom/UserCredential';
 import { StorageSimpleUploadApi } from './services/custom/StorageSimpleUpload';
 import { ProfileDataApi } from './services/custom/ProfileData';
+import { MapsApi } from './services/custom/Maps';
 /**
 * @module SDKBrowserModule
 * @description
@@ -87,6 +88,7 @@ export class SDKBrowserModule {
         UserCredentialApi,
         StorageSimpleUploadApi,
         ProfileDataApi,
+        MapsApi,
         internalStorageProvider,
         { provide: SDKStorage, useClass: StorageBrowser },
         { provide: SocketDriver, useClass: SocketBrowser }
