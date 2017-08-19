@@ -11,11 +11,6 @@
       "type": "string",
       "id": true
     },
-    "userid": {
-      "type": "string",
-      "id": false,
-      "required": true
-    },
     "username": {
       "type": "string",
       "required": true
