@@ -59,5 +59,23 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "Todo": {
+    "dataSource": "db",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },    
+  "Roomchat": {
+    "dataSource": "db",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Chatdetail": {
+    "dataSource": "db",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }

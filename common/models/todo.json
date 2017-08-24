@@ -1,0 +1,40 @@
+{
+  "name": "Todo",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {
+    "FireLoop": true,
+    "TimeStamp": {
+      "required": false
+    },
+    "Stats": [
+      {
+        "method": "stats",
+        "endpoint": "/stats",
+        "description": "Statistical information for Todo registers.",
+        "type": "model",
+        "count": {
+          "on": "dueAt",
+          "by": "index"
+        }
+      }
+    ]
+  },
+  "properties": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "dueAt": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
