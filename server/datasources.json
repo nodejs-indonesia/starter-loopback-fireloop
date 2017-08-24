@@ -1,8 +1,12 @@
 {
   "db": {
     "name": "db",
-    "connector": "memory",
-    "file": "mydata.json"
+    "connector": "mysql",
+    "host": "174.138.24.126",
+    "port": 3306,
+    "database": "loopbackDb",
+    "password": "lbP4ss4Acc3ss",
+    "user": "loopbackuser"
   },
   "storageSimpleUpload": {
     "name": "storageSimpleUpload",
