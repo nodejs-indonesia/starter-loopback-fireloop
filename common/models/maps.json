@@ -12,13 +12,16 @@
       "id": true,
       "required": false
     },
-    "userID": {
-      "type": "string"
-    },
     "latitude": {
       "type": "string"
     },
     "longitude": {
+      "type": "string"
+    },
+    "userID": {
+      "type": "string"
+    },
+    "locationName": {
       "type": "string"
     }
   },

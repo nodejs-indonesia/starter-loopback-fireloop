@@ -1,11 +1,11 @@
 {
   "db": {
-    "name": "db",
-    "connector": "mysql",
     "host": "174.138.24.126",
     "port": 3306,
     "database": "loopbackDb",
     "password": "lbP4ss4Acc3ss",
+    "name": "db",
+    "connector": "mysql",
     "user": "loopbackuser"
   },
   "storageSimpleUpload": {
