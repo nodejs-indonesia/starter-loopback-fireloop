@@ -10,22 +10,6 @@
     "table": "chatdetail"
   },
   "properties": {
-    "roomchatid": {
-      "type": "Number",
-      "required": false,
-      "length": null,
-      "precision": 10,
-      "scale": 0,
-      "mysql": {
-        "columnName": "RoomChatId",
-        "dataType": "int",
-        "dataLength": null,
-        "dataPrecision": 10,
-        "dataScale": 0,
-        "nullable": "Y"
-      },
-      "_selectable": true
-    },
     "sender": {
       "type": "String",
       "required": false,
