@@ -30,6 +30,10 @@
       "type": "string",
       "required": true
     },
+    "folder": {
+      "type": "string",
+      "required": true
+    },
     "photoProfile": {
       "type": "string",
       "required": true
