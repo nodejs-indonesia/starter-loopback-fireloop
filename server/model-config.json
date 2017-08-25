@@ -81,5 +81,9 @@
   "StorageUpload": {
     "dataSource": "StorageUpload",
     "public": true
+  },
+  "blogPost": {
+    "dataSource": "db",
+    "public": true
   }
 }
