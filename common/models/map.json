@@ -1,0 +1,30 @@
+{
+  "name": "Map",
+  "plural": "Maps",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {
+    "FireLoop": true
+  },
+  "properties": {
+    "userID": {
+      "type": "string"
+    },
+    "locationName": {
+      "type": "string"
+    },
+    "longitude": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
