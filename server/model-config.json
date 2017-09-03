@@ -79,5 +79,9 @@
   "Map": {
     "dataSource": "db",
     "public": true
+  },
+  "blogPost": {
+    "dataSource": "db",
+    "public": true
   }
 }
