@@ -54,12 +54,6 @@
     "dataSource": "db",
     "public": true
   },
-  "maps": {
-    "dataSource": "db",
-    "public": true,
-    "$promise": {},
-    "$resolved": true
-  },
   "Todo": {
     "dataSource": "db",
     "public": true,
@@ -80,6 +74,10 @@
   },
   "StorageUpload": {
     "dataSource": "StorageUpload",
+    "public": true
+  },
+  "Map": {
+    "dataSource": "db",
     "public": true
   },
   "blogPost": {

@@ -1,27 +1,25 @@
 {
-  "name": "maps",
+  "name": "Map",
+  "plural": "Maps",
   "base": "PersistedModel",
-  "strict": false,
-  "idInjection": false,
+  "idInjection": true,
   "options": {
     "validateUpsert": true
   },
+  "mixins": {
+    "FireLoop": true
+  },
   "properties": {
-    "id": {
-      "type": "string",
-      "id": true,
-      "required": false
+    "userID": {
+      "type": "string"
     },
-    "latitude": {
+    "locationName": {
       "type": "string"
     },
     "longitude": {
       "type": "string"
     },
-    "userID": {
-      "type": "string"
-    },
-    "locationName": {
+    "latitude": {
       "type": "string"
     }
   },
