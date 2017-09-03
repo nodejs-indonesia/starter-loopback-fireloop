@@ -1,0 +1,28 @@
+{
+  "name": "blogPost",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "postContent": {
+      "type": "any"
+    },
+    "postDate": {
+      "type": "date"
+    },
+    "postId": {
+      "type": "string",
+      "id": true
+    },
+    "postTitle": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
