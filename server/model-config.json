@@ -50,10 +50,6 @@
     "dataSource": "storageSimpleUpload",
     "public": true
   },
-  "profileData": {
-    "dataSource": "db",
-    "public": true
-  },
   "Todo": {
     "dataSource": "db",
     "public": true,
@@ -77,6 +73,10 @@
     "public": true
   },
   "Map": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Profiledata": {
     "dataSource": "db",
     "public": true
   },
