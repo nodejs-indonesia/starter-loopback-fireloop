@@ -5,6 +5,9 @@
   "options": {
     "validateUpsert": true
   },
+  "mixins": {
+    "FireLoop": true
+  },
   "mysql": {
     "schema": "loopbackdb",
     "table": "chatdetail"
@@ -57,6 +60,22 @@
         "nullable": "Y"
       },
       "_selectable": true
+    },
+    "RoomChatId": {
+      "type": "Number",
+      "required": false,
+      "length": null,
+      "precision": 10,
+      "scale": 0,
+      "mysql": {
+        "columnName": "RoomChatId",
+        "dataType": "int",
+        "dataLength": null,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "N"
+      },
+      "_selectable": false
     },
     "id": {
       "type": "Number",
