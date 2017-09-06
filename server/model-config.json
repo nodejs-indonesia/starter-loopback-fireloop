@@ -80,7 +80,7 @@
     "dataSource": "db",
     "public": true
   },
-  "blogPost": {
+  "Blogpost": {
     "dataSource": "db",
     "public": true
   }
