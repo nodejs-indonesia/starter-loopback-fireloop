@@ -1,8 +1,8 @@
 import { Model } from '@mean-expert/model';
 /**
- * @module Maps
+ * @module Map
  * @description
- * Write a useful Maps Model description.
+ * Write a useful Map Model description.
  * Register hooks and remote methods within the
  * Model Decorator
  **/
@@ -11,9 +11,9 @@ import { Model } from '@mean-expert/model';
   remotes: {}
 })
 
-class Maps {
+class Map {
   // LoopBack model instance is injected in constructor
   constructor(public model: any) { }
 }
 
-module.exports = Maps;
+module.exports = Map;
